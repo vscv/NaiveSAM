@@ -4,5 +4,5 @@ A Jupyter-based Interactive Workflow for YOLO Segmentation dataset with Segment 
 
 ## Tool kits
 
-* SAM2: [https://github.com/facebookresearch/sam2]
-* FFmpeg: sudo apt update; sudo apt install ffmpeg
+* SAM2: https://github.com/facebookresearch/sam2
+* FFmpeg: sudo apt update; sudo apt install ffmpeg (https://ffmpeg.org/)
