@@ -19,7 +19,7 @@ A Jupyter-based Interactive Workflow for YOLO Segmentation dataset with Segment 
 * 影片目標盡量不要在畫面中有中斷，雖然SAM2追蹤效能很好，但有些斷點之後會追蹤失敗或標籤混淆，需要在這些短點補標註使時間成本提高。
 * SAM2 progtgation 與 Display reuslt時，可以選擇影格間隔數，以快速看到成果。畢竟每秒大約1.5frame的速度仍是太慢。
 * SAM2 hydra issue:
-  ```Python
+```Python
 sam2_checkpoint = "./sam2local/checkpoints/sam2.1_hiera_large.pt" # place cpt to somewhere.
 model_cfg = "configs/sam2.1/sam2.1_hiera_l.yaml" # if install sam2 in home/
 ```
