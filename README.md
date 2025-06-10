@@ -22,4 +22,6 @@ A Jupyter-based Interactive Workflow for YOLO Segmentation dataset with Segment 
 ```Python
 sam2_checkpoint = "../sam2/checkpoints/sam2.1_hiera_large.pt" # if install sam2 in home/ place cpt to sam2.
 model_cfg = "configs/sam2.1/sam2.1_hiera_l.yaml" # if install sam2 in home/ set this way!
+
+# ref to https://github.com/facebookresearch/sam2/blob/main/notebooks/video_predictor_example.ipynb
 ```
