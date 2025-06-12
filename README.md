@@ -38,4 +38,6 @@ Config search path:
 cpt放sam2安裝的專案位置，全路徑或相對路徑能找到，conf則是用hydra來找。因此統一放在/home下的sam2安裝位置即可。
 """
 
+
 ```
+* 目前SAM2並沒有支援多GPU，但可分段多支影片來並行推論。
