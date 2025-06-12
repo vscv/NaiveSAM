@@ -2,7 +2,7 @@
 A Jupyter-based Interactive Workflow for YOLO Segmentation dataset with Segment Anything Model
 
 
-## Tool kits
+## Requirements 
 * Python 3
 * FFmpeg 4: sudo apt update; sudo apt install ffmpeg (https://ffmpeg.org/)
 * Jupyter notebook 6
