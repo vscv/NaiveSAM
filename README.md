@@ -25,7 +25,7 @@ model_cfg = "configs/sam2.1/sam2.1_hiera_l.yaml" # if install sam2 in home/ set 
 
 # ref to https://github.com/facebookresearch/sam2/blob/main/notebooks/video_predictor_example.ipynb
 
-這是由於SAM本身使用hydra的怪事，cpt可以用路徑，但cfg就一定要用hydra的預先已知configs路徑模式
+這是由於SAM本身使用hydra的怪事，cpt可以用路徑，但cfg就一定要用hydra的預先已知configs的套件安裝路徑模式
 
 MissingConfigException: Cannot find primary config './sam2/configs/sam2.1/sam2.1_hiera_l.yaml'. Check that it's in your config search path.
 
