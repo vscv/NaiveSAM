@@ -41,3 +41,4 @@ cpt放sam2安裝的專案位置，全路徑或相對路徑能找到，conf則是
 
 ```
 * 目前SAM2並沒有支援多GPU，但可分段多支影片來並行推論。
+* 這些問題時請reconnect kernel or re-run cell，若還是無法解決請清除並重新啟動kernel：NaveSAM介面沒有出現影格，影格停滯與Frame數無法同步。
