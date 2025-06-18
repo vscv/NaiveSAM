@@ -4,7 +4,7 @@ A Jupyter-based Interactive Workflow for YOLO Segmentation dataset with Segment 
 
 ## Requirements 
 * Python 3
-* FFmpeg 4: sudo apt update; sudo apt install ffmpeg (https://ffmpeg.org/)
+* FFmpeg 4: sudo apt update; sudo apt install ffmpeg -y (https://ffmpeg.org/)
 * Jupyter notebook 6
 * Jupyter ipywidgets 8
 * OpenCV 4
