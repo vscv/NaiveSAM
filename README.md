@@ -46,7 +46,16 @@ cpt放sam2安裝的專案位置，全路徑或相對路徑能找到，conf則是
 
 * * *
 <details>
-<summary>點擊展開</summary>
-這是隱藏內容
+<summary> 其他問題 </summary>
+這是可能的解決方式之一
 </details>
+
+> **注意**：這是重要訊息
+> **警告**：請小心操作
+
+#### 鍵盤標籤
+使用 `<kbd>` 標籤模擬按鍵效果：
+```markdown
+按下 <kbd>Ctrl</kbd> + <kbd>C</kbd>
+
 
