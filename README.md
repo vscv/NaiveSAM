@@ -45,9 +45,8 @@ cpt放sam2安裝的專案位置，全路徑或相對路徑能找到，conf則是
 
 
 * * *
-```markdown
 <details>
 <summary>點擊展開</summary>
 這是隱藏內容
 </details>
-```
+
