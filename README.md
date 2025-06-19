@@ -55,7 +55,7 @@ cpt放sam2安裝的專案位置，全路徑或相對路徑能找到，conf則是
 
 #### 鍵盤標籤
 使用 `<kbd>` 標籤模擬按鍵效果：
-```markdown
+
 按下 <kbd>Ctrl</kbd> + <kbd>C</kbd>
 
 
