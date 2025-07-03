@@ -3,7 +3,11 @@ A Jupyter-based Interactive Workflow for YOLO Segmentation dataset with Segment 
 
 
 
-   [![YouTube 视频](https://img.youtube.com/vi/视频ID/0.jpg)](https://www.youtube.com/watch?v=bA_d4vmhKsM)
+- 標註區展示
+https://github.com/user-attachments/assets/1345436b-0d57-4b72-9e9d-fe161b5efe08
+
+- End-to-End 影格-標註-產生資料集
+https://github.com/user-attachments/assets/1345436b-0d57-4b72-9e9d-fe161b5efe08  
 
    
 
