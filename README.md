@@ -86,8 +86,10 @@ Config search path:
     
     
 cpt放sam2安裝的專案位置，全路徑或相對路徑能找到，conf則是用hydra來找。因此統一放在/home下的sam2安裝位置即可。
-"""	
+```
 </details>
+
+
 
 > **注意**：請先安裝cuda驅動、troch、SAM2。
 
