@@ -62,11 +62,13 @@ cpt放sam2安裝的專案位置，全路徑或相對路徑能找到，conf則是
 <details>
 <summary> 其他問題 </summary>
 這是可能的解決方式之一
+	
 * 如果cuda OOM主要是GPU記憶體用盡，請減少影格數量如減少影片長度或是減少fps數，來避免。
 * 標記的點越多(標記的物件越多)，SAM處理會越慢。(如7件1.3fps 3件2.0fps)
 * 影片目標盡量不要在畫面中有中斷，雖然SAM2追蹤效能很好，但有些斷點之後會追蹤失敗或標籤混淆，需要在這些短點補標註使時間成本提高。
 * SAM2 progtgation 與 Display reuslt時，可以選擇影格間隔數，以快速看到成果。畢竟每秒大約1.5frame的速度仍是太慢。
 * SAM2 hydra issue:
+	
 ```Python
 sam2_checkpoint = "../sam2/checkpoints/sam2.1_hiera_large.pt" # if install sam2 in home/ place cpt to sam2.
 model_cfg = "configs/sam2.1/sam2.1_hiera_l.yaml" # if install sam2 in home/ set this way!
