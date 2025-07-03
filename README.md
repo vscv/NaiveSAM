@@ -1,5 +1,5 @@
 # NaiveSAM
-A Jupyter-based Interactive Workflow for YOLO Segmentation dataset with Segment Anything Model
+`A Jupyter-based Interactive Workflow for YOLO Segmentation dataset with Segment Anything Model`
 
 
 [Chinese](README-zh-TW.md)
