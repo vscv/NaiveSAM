@@ -25,7 +25,7 @@ Simply open and run the `NaiveSAM.ipynb` notebook in your local Jupyter Notebook
 - SAM2: Version 2.1  
   (Install from: https://github.com/facebookresearch/sam2)
 
-> ⚠️ **Note:** Please make sure to pre-install CUDA drivers, PyTorch, FFmpeg, and the SAM2 environment.
+> ⚠️ **Note:** Please make sure to pre-install CUDA drivers(if you have GPU), PyTorch, FFmpeg, and the SAM2 environment.
 
 ---
 
