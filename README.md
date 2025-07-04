@@ -4,7 +4,17 @@
 
 [Chinese](README-zh-TW.md)
 
+# 如何使用
 
+## Requirements 
+* Python 3
+* FFmpeg 4: sudo apt update; sudo apt install -y ffmpeg (https://ffmpeg.org/)
+* Jupyter notebook 6
+* Jupyter ipywidgets 8
+* OpenCV 4
+* SAM2: SAM2 v2.1 (check htps://github.com/facebookresearch/sam2)
+
+> **注意**：請先安裝cuda驅動、troch、FFmpeg、SAM2。
 
 - 標註區展示
   
@@ -16,13 +26,7 @@ https://github.com/user-attachments/assets/1345436b-0d57-4b72-9e9d-fe161b5efe0
 
    
 
-## Requirements 
-* Python 3
-* FFmpeg 4: sudo apt update; sudo apt install -y ffmpeg (https://ffmpeg.org/)
-* Jupyter notebook 6
-* Jupyter ipywidgets 8
-* OpenCV 4
-* SAM2: SAM2 v2.1 (check htps://github.com/facebookresearch/sam2)
+
 
 
 
@@ -67,6 +71,8 @@ cpt放sam2安裝的專案位置，全路徑或相對路徑能找到，conf則是
 * 標記的點越多(標記的物件越多)，SAM處理會越慢。(如7件1.3fps 3件2.0fps)
 * 影片目標盡量不要在畫面中有中斷，雖然SAM2追蹤效能很好，但有些斷點之後會追蹤失敗或標籤混淆，需要在這些短點補標註使時間成本提高。
 * SAM2 progtgation 與 Display reuslt時，可以選擇影格間隔數，以快速看到成果。畢竟每秒大約1.5frame的速度仍是太慢。
+* 目前SAM2並沒有支援多GPU，但可分段多支影片來並行推論。
+* 這些問題時請reconnect kernel or re-run cell，若還是無法解決請清除並重新啟動kernel：NaveSAM介面沒有出現影格，影格停滯與Frame數無法同步。
 * SAM2 hydra issue:
 	
 ```Python
@@ -91,7 +97,7 @@ cpt放sam2安裝的專案位置，全路徑或相對路徑能找到，conf則是
 
 
 
-> **注意**：請先安裝cuda驅動、troch、SAM2。
+
 
 
 
