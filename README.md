@@ -51,11 +51,11 @@ Simply open and run the `NaiveSAM.ipynb` notebook in your local Jupyter Notebook
 - **Object Visibility in Frames:**
   - Avoid abrupt occlusion; although SAM2 has good tracking, failure may occur at visual discontinuities.
 - **Preview Faster:**
-  - Adjust frame interval in "SAM2 propagation" and "Display result" to skip frames for quicker mask review.
+  - Adjust the frame interval "framerate" and "vis_frame_stride" in "Extracting frames from video" and "Display result" to skip frames for quicker mask review.
 - **No Multi-GPU Support:**
   - SAM2 only supports single-GPU, but you can process multiple videos in parallel manually.
 - **Kernel Errors or UI Freezes:**
-  - Try `Restart & Run All` or reconnect kernel.
+  - Try reconnecting the kernel or `Restart & Run All`.
   - If the UI or frame sync is broken, reset the kernel.
 
 ### SAM2 + Hydra Path Issue
