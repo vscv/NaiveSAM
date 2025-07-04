@@ -70,7 +70,7 @@ Typical Hydra Error:
 MissingConfigException: Cannot find primary config './sam2/configs/sam2.1/sam2.1_hiera_l.yaml'.
 ```
 
-- ** End-to-End Workflow: Frame Extraction → Annotation → Dataset Generation → Model Training **
+- **End-to-End Workflow: Frame Extraction → Annotation → Dataset Generation → Model Training**
   - [End-to-End Workflow demo](End2End_NaiveSAM+YOLO-seg-Training.md)
 
 </details>
