@@ -37,8 +37,7 @@ Simply open and run the `NaiveSAM.ipynb` notebook in your local Jupyter Notebook
 ---
 
 ## ❓ Troubleshooting & Tips
-<details>
-<summary>Click to Expand</summary>
+
 
 - **CUDA Out of Memory (OOM):**
   - Reduce the total number of frames (shorten video or reduce FPS).
@@ -69,7 +68,7 @@ MissingConfigException: Cannot find primary config './sam2/configs/sam2.1/sam2.1
 - **End-to-End Workflow: Frame Extraction → Annotation → Dataset Generation → Model Training**
   - [End-to-End Workflow demo](End2End_NaiveSAM+YOLO-seg-Training.md)
 
-</details>
+---
 
 ## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
