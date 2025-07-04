@@ -2,7 +2,7 @@
 `A Jupyter-based Interactive Workflow for YOLO Segmentation dataset with Segment Anything Model`
 
 
-[Chinese](README-zh-TW.md)
+[繁體中文](README-zh-TW.md) [简体中文](README-zh.md)
 
 # 如何使用
 
