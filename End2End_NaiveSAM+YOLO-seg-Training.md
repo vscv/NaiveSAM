@@ -7,5 +7,5 @@ An example of how to run the whole pipeline from dataset creation to model train
 
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_qAV8T3QOYk?si=KHZBhTFecGl6t0mc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_qAV8T3QOYk?si=gDldxiRhG1QvPSSy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
