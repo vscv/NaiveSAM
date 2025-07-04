@@ -32,9 +32,13 @@ sudo apt install -y ffmpeg
 
 ## 展示影片与操作截图
 
-- 标注介面： [标注 UI 展示](https://github.com/user-attachments/assets/1345436b-0d57-4b72-9e9d-fe161b5efe08)
+- 标注介面：
 
-- 端到端流程（影格撷取 → 标注 → 汇出 YOLO 资料集 → 训练）： [End-to-End 展示](https://github.com/user-attachments/assets/1345436b-0d57-4b72-9e9d-fe161b5efe0)
+  [标注 UI 展示](https://github.com/user-attachments/assets/1345436b-0d57-4b72-9e9d-fe161b5efe08)
+
+- 端到端流程（影格撷取 → 标注 → 汇出 YOLO 资料集 → 训练）：
+
+  [End-to-End 展示](https://github.com/user-attachments/assets/1345436b-0d57-4b72-9e9d-fe161b5efe0)
 
 ---
 
