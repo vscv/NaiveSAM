@@ -6,7 +6,7 @@
 
 # 如何使用
 
-只要打開
+只要打開`NaiveSAM.ipynb`
 
 ## Requirements 
 * Python 3
