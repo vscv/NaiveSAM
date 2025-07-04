@@ -2,7 +2,7 @@
 
 `基於Jupyter的互動式YOLO Segmentation資料集標註流程，整合Segment Anything Model`
 
-[English](README.md)
+[繁體中文](README-zh-TW.md) [简体中文](README-zh.md) [English](README.md)
 
 ---
 
