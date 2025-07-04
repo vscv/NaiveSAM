@@ -71,7 +71,7 @@ MissingConfigException: Cannot find primary config './sam2/configs/sam2.1/sam2.1
 ```
 
 - ** End-to-End Workflow: Frame Extraction → Annotation → Dataset Generation → Model Training **
-  - [End-to-End Workflow demo](README.md)
+  - [End-to-End Workflow demo](End2End_NaiveSAM+YOLO-seg-Training.md)
 
 </details>
 
