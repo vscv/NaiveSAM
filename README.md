@@ -19,7 +19,7 @@ Simply open and run the `NaiveSAM.ipynb` notebook in your local Jupyter Notebook
     sudo apt install -y ffmpeg
     ```
 - Jupyter Notebook 6+
-- `ipywidgets` 8
+- ipywidgets 8
 - OpenCV 4
 - SAM2: Version 2.1  
   (Install from: https://github.com/facebookresearch/sam2)
