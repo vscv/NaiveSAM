@@ -67,4 +67,4 @@ model_cfg = "configs/sam2.1/sam2.1_hiera_l.yaml"
 
 ## 授权
 
-本专案依据 MIT License 授权。
+本专案依据 [MIT License](https://opensource.org/licenses/MIT) 授权。
