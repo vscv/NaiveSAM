@@ -70,3 +70,6 @@ Typical Hydra Error:
 MissingConfigException: Cannot find primary config './sam2/configs/sam2.1/sam2.1_hiera_l.yaml'.
 ```
 </details>
+
+## License
+This project is licensed under the MIT License.
