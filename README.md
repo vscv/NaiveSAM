@@ -54,7 +54,7 @@ Simply open and run the `NaiveSAM.ipynb` notebook in your local Jupyter Notebook
   - Try reconnecting the kernel or `Restart & Run All`.
   - If the UI or frame sync is broken, reset the kernel.
 
-### SAM2 + Hydra Path Issue
+- **SAM2 + Hydra Path Issue**
 ```python
 sam2_checkpoint = "../sam2/checkpoints/sam2.1_hiera_large.pt"
 model_cfg = "configs/sam2.1/sam2.1_hiera_l.yaml"
