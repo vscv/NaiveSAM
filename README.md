@@ -1,69 +1,71 @@
 # NaiveSAM
-`A Jupyter-based Interactive Workflow for YOLO Segmentation dataset with Segment Anything Model`
+*A Jupyter-based Interactive Workflow for YOLO Segmentation Dataset with Segment Anything Model (SAM)*
 
 
 [繁體中文](README-zh-TW.md) [简体中文](README-zh.md) [English](README.md)
 
-# 如何使用
+---
 
-只要打開`NaiveSAM.ipynb`
+## 📌 How to Use
+Simply open and run the `NaiveSAM.ipynb` notebook in your local Jupyter Notebook environment.
 
-## Requirements 
-* Python 3
-* FFmpeg 4: sudo apt update; sudo apt install -y ffmpeg (https://ffmpeg.org/)
-* Jupyter notebook 6
-* Jupyter ipywidgets 8
-* OpenCV 4
-* SAM2: SAM2 v2.1 (check htps://github.com/facebookresearch/sam2)
+---
 
-> **注意**：請先安裝cuda驅動、troch、FFmpeg、SAM2。
+## ⚙️ Requirements
+- Python 3
+- FFmpeg 4
+    ```bash
+    sudo apt update
+    sudo apt install -y ffmpeg
+    ```
+- Jupyter Notebook 6+
+- `ipywidgets` 8
+- OpenCV 4
+- SAM2: Version 2.1  
+  (Install from: https://github.com/facebookresearch/sam2)
 
-- 標註區展示
+> ⚠️ **Note:** Please make sure to pre-install CUDA drivers, PyTorch, FFmpeg, and the SAM2 environment.
+
+---
+
+## 🖼️ Demo Screenshots
+- **Annotation Interface Overview**
   
-https://github.com/user-attachments/assets/1345436b-0d57-4b72-9e9d-fe161b5efe08
+  ![Annotation UI](https://github.com/user-attachments/assets/1345436b-0d57-4b72-9e9d-fe161b5efe08)
 
-- End-to-End 影格-標註-產生資料集-訓練 全端展示
+- **End-to-End Workflow:** Frame Extraction → Annotation → Dataset Generation → Model Training
   
-https://github.com/user-attachments/assets/1345436b-0d57-4b72-9e9d-fe161b5efe0  
+  ![Full Pipeline](https://github.com/user-attachments/assets/1345436b-0d57-4b72-9e9d-fe161b5efe0)
 
-   
+---
 
-* * *
+## ❓ Troubleshooting & Tips
 <details>
-<summary> 其他問題 </summary>
-這是可能的解決方式之一
-	
-* 如果cuda OOM主要是GPU記憶體用盡，請減少影格數量如減少影片長度或是減少fps數，來避免。
-* 標記的點越多(標記的物件越多)，SAM處理會越慢。(如7件1.3fps 3件2.0fps)
-* 影片目標盡量不要在畫面中有中斷，雖然SAM2追蹤效能很好，但有些斷點之後會追蹤失敗或標籤混淆，需要在這些短點補標註使時間成本提高。
-* SAM2 progtgation 與 Display reuslt時，可以選擇影格間隔數，以快速看到成果。畢竟每秒大約1.5frame的速度仍是太慢。
-* 目前SAM2並沒有支援多GPU，但可分段多支影片來並行推論。
-* 這些問題時請reconnect kernel or re-run cell，若還是無法解決請清除並重新啟動kernel：NaveSAM介面沒有出現影格，影格停滯與Frame數無法同步。
-* SAM2 hydra issue:
-	
-```Python
-sam2_checkpoint = "../sam2/checkpoints/sam2.1_hiera_large.pt" # if install sam2 in home/ place cpt to sam2.
-model_cfg = "configs/sam2.1/sam2.1_hiera_l.yaml" # if install sam2 in home/ set this way!
+<summary>Click to Expand</summary>
 
-# ref to https://github.com/facebookresearch/sam2/blob/main/notebooks/video_predictor_example.ipynb
+- **CUDA Out of Memory (OOM):**
+  - Reduce the total number of frames (shorten video or reduce FPS).
+- **SAM Slow Performance:**
+  - More labeled points or objects = slower SAM processing. E.g., 7 objects ≈ 1.3 FPS; 3 objects ≈ 2.0 FPS.
+- **Object Visibility in Frames:**
+  - Avoid abrupt occlusion; although SAM2 has good tracking, failure may occur at visual discontinuities.
+- **Preview Faster:**
+  - Adjust frame interval in "SAM2 propagation" and "Display result" to skip frames for quicker mask review.
+- **No Multi-GPU Support:**
+  - SAM2 only supports single-GPU, but you can process multiple videos in parallel manually.
+- **Kernel Errors or UI Freezes:**
+  - Try `Restart & Run All` or reconnect kernel.
+  - If the UI or frame sync is broken, reset the kernel.
 
-這是由於SAM本身使用hydra的怪事，cpt可以用路徑，但cfg就一定要用hydra的預先已知configs的套件安裝路徑模式
+### SAM2 + Hydra Path Issue
+```python
+sam2_checkpoint = "../sam2/checkpoints/sam2.1_hiera_large.pt"
+model_cfg = "configs/sam2.1/sam2.1_hiera_l.yaml"
+```
+> Note: SAM2 uses Hydra for config loading. Checkpoint paths work with standard paths, but `cfg` must use Hydra's internal search path structure. Place both in your installed `/home/.../sam2/` directory.
 
-MissingConfigException: Cannot find primary config './sam2/configs/sam2.1/sam2.1_hiera_l.yaml'. Check that it's in your config search path.
-
-Config search path:
-	provider=hydra, path=pkg://hydra.conf
-	provider=main, path=pkg://sam2
-	provider=schema, path=structured://
-    
-    
-cpt放sam2安裝的專案位置，全路徑或相對路徑能找到，conf則是用hydra來找。因此統一放在/home下的sam2安裝位置即可。
+Typical Hydra Error:
+```
+MissingConfigException: Cannot find primary config './sam2/configs/sam2.1/sam2.1_hiera_l.yaml'.
 ```
 </details>
-
-
-
-
-
-
-
