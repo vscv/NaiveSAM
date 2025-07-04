@@ -6,14 +6,6 @@ An example of how to run the whole pipeline from dataset creation to model train
 [![YouTube Overview Video](https://img.youtube.com/vi/_qAV8T3QOYk/maxresdefault.jpg)](https://www.youtube.com/watch?v=_qAV8T3QOYk)
 
 
-[![sam222](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2F_qAV8T3QOYk)](https://youtu.be/_qAV8T3QOYk)
-
-
-<a href="https://youtu.be/_qAV8T3QOYk">
-  <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2F_qAV8T3QOYk" alt="sam222" title="sam222"/>
-</a>
-
-
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_qAV8T3QOYk?si=KHZBhTFecGl6t0mc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
