@@ -1,0 +1,33 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ./robot_example/yolo_data  # dataset root dir
+train: images/train  # train images (relative to 'path') 4 images
+val: images/val  # val images (relative to 'path') 4 images
+test:  # test images (optional)
+
+# https://docs.ultralytics.com/datasets/segment/#dataset-yaml-format
+## Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+#path: ../datasets/coco8-seg  # dataset root dir
+#train: images/train  # train images (relative to 'path') 4 images
+#val: images/val  # val images (relative to 'path') 4 images
+#test:  # test images (optional)
+#
+## Classes (80 COCO classes)
+#names:
+#  0: person
+#  1: bicycle
+#  2: car
+#  # ...
+#  77: teddy bear
+#  78: hair drier
+#  79: toothbrush
+
+
+# Classes
+names:
+    0: robot
+    1: clamp
+    2: camera
+    3: scanner
+    4: control_panel
+    5: ROS_panel
+    6: object
