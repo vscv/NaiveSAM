@@ -34,10 +34,6 @@ Simply open and run the `NaiveSAM.ipynb` notebook in your local Jupyter Notebook
   
   [Annotation UI](https://github.com/user-attachments/assets/1345436b-0d57-4b72-9e9d-fe161b5efe08)
 
-- **End-to-End Workflow:** Frame Extraction → Annotation → Dataset Generation → Model Training
-  
-  [Full Pipeline](https://github.com/user-attachments/assets/1345436b-0d57-4b72-9e9d-fe161b5efe0)
-
 ---
 
 ## ❓ Troubleshooting & Tips
