@@ -72,4 +72,4 @@ MissingConfigException: Cannot find primary config './sam2/configs/sam2.1/sam2.1
 </details>
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
