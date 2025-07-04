@@ -12,3 +12,7 @@ An example of how to run the whole pipeline from dataset creation to model train
 <a href="https://youtu.be/_qAV8T3QOYk">
   <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2F_qAV8T3QOYk" alt="sam222" title="sam222"/>
 </a>
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_qAV8T3QOYk?si=KHZBhTFecGl6t0mc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
