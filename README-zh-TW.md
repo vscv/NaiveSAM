@@ -44,7 +44,7 @@
 
 - 端到端流程（影格擷取 → 標註 → 匯出 YOLO 資料集 → 訓練）：
 
-  [End-to-End 展示](https://github.com/user-attachments/assets/1345436b-0d57-4b72-9e9d-fe161b5efe0)
+  [End-to-End 展示](https://github.com/vscv/NaiveSAM/tree/main/End2End_demo)
 
 ---
 
