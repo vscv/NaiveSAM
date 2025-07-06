@@ -36,6 +36,10 @@ sudo apt install -y ffmpeg
 
   [标注 UI 展示](https://github.com/user-attachments/assets/1345436b-0d57-4b72-9e9d-fe161b5efe08)
 
+- **Frame slider, clear pts, labeling demo**
+
+  [Annotation UI](https://github.com/user-attachments/assets/57263d56-5f7e-419e-8f37-3c088f7d7bd7)
+
 - 端到端流程（影格撷取 → 标注 → 汇出 YOLO 资料集 → 训练）：
 
   [End-to-End 展示](https://github.com/user-attachments/assets/1345436b-0d57-4b72-9e9d-fe161b5efe0)
