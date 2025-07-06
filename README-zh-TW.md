@@ -36,6 +36,12 @@
 
   [標註 UI 展示](https://github.com/user-attachments/assets/1345436b-0d57-4b72-9e9d-fe161b5efe08)
 
+
+- **Frame slider, clear pts, labeling demo**
+
+  [Annotation UI](https://github.com/user-attachments/assets/57263d56-5f7e-419e-8f37-3c088f7d7bd7)
+
+
 - 端到端流程（影格擷取 → 標註 → 匯出 YOLO 資料集 → 訓練）：
 
   [End-to-End 展示](https://github.com/user-attachments/assets/1345436b-0d57-4b72-9e9d-fe161b5efe0)
