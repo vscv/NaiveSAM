@@ -34,9 +34,9 @@ Simply open and run the `NaiveSAM.ipynb` notebook in your local Jupyter Notebook
   
   [Annotation UI](https://github.com/user-attachments/assets/1345436b-0d57-4b72-9e9d-fe161b5efe08)
 
+- **Frame slider, clear pts, labeling demo**
 
-
-[Annotation UI](https://github.com/user-attachments/assets/57263d56-5f7e-419e-8f37-3c088f7d7bd7)
+  [Annotation UI](https://github.com/user-attachments/assets/57263d56-5f7e-419e-8f37-3c088f7d7bd7)
 
 
 
