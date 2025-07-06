@@ -42,7 +42,7 @@ sudo apt install -y ffmpeg
 
 - 端到端流程（影格撷取 → 标注 → 汇出 YOLO 资料集 → 训练）：
 
-  [End-to-End 展示](https://github.com/user-attachments/assets/1345436b-0d57-4b72-9e9d-fe161b5efe0)
+  [End-to-End 展示](https://github.com/vscv/NaiveSAM/tree/main/End2End_demo)
 
 ---
 
