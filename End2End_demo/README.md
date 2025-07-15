@@ -11,7 +11,7 @@ An example of how to run the whole pipeline from dataset creation to model train
 
 
 * * *
-for  ultralytics
+## Ultralytics
 
 ```bash
 pip install ultralytics
