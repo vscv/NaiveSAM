@@ -20,3 +20,14 @@ pip install ultralytics
 pip install "numpy<2"
 pip install "pandas<2.2"
 ```
+
+## YOLO training
+
+if  `UserWarning: This DataLoader will create 8 worker processes in total. Our suggested max number of worker in current system is 4, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.`
+
+```Python
+results = model.train(
+    ...,
+    workers=4,  # 設定 worker 數量
+)
+```
