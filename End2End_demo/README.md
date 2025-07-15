@@ -16,6 +16,6 @@ for  ultralytics
 ```bash
 sudo pip install ultralytics
 
-sudo pip install numpy=='1.23'
-sudo pip install pandas=='2.0'
+# if "ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject"
+$sudo pip install --upgrade --force-reinstall numpy scipy pandas matplotlib
 ```
