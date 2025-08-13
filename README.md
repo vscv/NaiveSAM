@@ -59,6 +59,12 @@ Simply open and run the `NaiveSAM.ipynb` notebook in your local Jupyter Notebook
   - Try reconnecting the kernel or `Restart & Run All`.
   - If the UI or frame sync is broken, reset the kernel.
 
+- **If you have multiple videos, repeat tagging before Step 5.**
+  ```
+    5. Sort out and pack to YOLO-seg dataset
+    Note: If you have multiple videos, please repeat the tagging process for all videos before compiling the complete dataset.
+    ```
+    
 - **SAM2 + Hydra Path Issue**
 ```python
 sam2_checkpoint = "../sam2/checkpoints/sam2.1_hiera_large.pt"
