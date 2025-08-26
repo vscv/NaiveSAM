@@ -73,7 +73,7 @@ model_cfg = "configs/sam2.1/sam2.1_hiera_l.yaml"
 
 請參考：[https://github.com/facebookresearch/sam2/blob/main/notebooks/video\_predictor\_example.ipynb](https://github.com/facebookresearch/sam2/blob/main/notebooks/video_predictor_example.ipynb)
 
-- **多個物體使用同個標籤無法追蹤 **: 這是因為SAM的追蹤機制每次一個類別只有一個物件，若重複打標同個標籤在不同物體上，SAM會形成一個大mask但跨距過大時就會破碎也不能進行追蹤。目前兩個解法：(1)同片多跑幾次直到同類別多物件都標好！(2)或是，增加子類別與編號，ex: person, person-1, pserson-2, person-3...等，追蹤完後，在pack yolodata時再合併回person標籤即可！！
+- **多個物體使用同個標籤無法追蹤**：這是因為SAM的追蹤機制每次一個類別只有一個物件，若重複打標同個標籤在不同物體上，SAM會形成一個大mask但跨距過大時就會破碎也不能進行追蹤。目前兩個解法：(1)同片多跑幾次直到同類別多物件都標好！(2)或是，增加子類別與編號，ex: person, person-1, pserson-2, person-3...等，追蹤完後，在pack yolodata時再合併回person標籤即可！！
 
 ---
 
