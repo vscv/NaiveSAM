@@ -57,7 +57,7 @@ Simply open and run the `NaiveSAM.ipynb` notebook in your local Jupyter Notebook
   - SAM2 only supports single-GPU, but you can process multiple videos in parallel manually.
 - **Kernel Errors or UI Freezes:**
   - Try reconnecting the kernel or `Restart & Run All`.
-  - If the UI or frame sync is broken, reset the kernel.
+  - If the UI or frame sync is broken, also try reconnecting the kernel or resetting the kernel.
 
 - **If you have multiple videos, repeat tagging before Step 5.**
   ```
