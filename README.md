@@ -83,4 +83,4 @@ MissingConfigException: Cannot find primary config './sam2/configs/sam2.1/sam2.1
 ---
 
 ## License
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+This project is licensed under the [MIT License](https://github.com/vscv/NaiveSAM/blob/main/LICENSE).
