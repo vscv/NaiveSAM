@@ -79,5 +79,5 @@ model_cfg = "configs/sam2.1/sam2.1_hiera_l.yaml"
 
 ## 授權
 
-本專案依據 [MIT License](https://opensource.org/licenses/MIT) 授權。
+本專案依據 [MIT License](https://github.com/vscv/NaiveSAM/blob/main/LICENSE) 授權。
 
