@@ -62,7 +62,7 @@ Simply open and run the `NaiveSAM.ipynb` notebook in your local Jupyter Notebook
 - **If you have multiple videos, repeat tagging before Step 5.**
   ```
     5. Sort out and pack to YOLO-seg dataset
-    Note: If you have multiple videos, please repeat the tagging process for all videos before compiling the complete dataset.
+    Note: If you have multiple videos, please repeat the tagging process for all videos before compiling the complete YOLO dataset.
     ```
     
 - **SAM2 + Hydra Path Issue**
