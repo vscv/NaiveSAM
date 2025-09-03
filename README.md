@@ -12,7 +12,7 @@ Simply open and run the `NaiveSAM.ipynb` notebook in your local Jupyter Notebook
 ---
 
 ## ⚙️ Requirements
-- Python 3
+- Python 3.11
 - FFmpeg 4
     ```bash
     sudo apt update
@@ -64,6 +64,9 @@ Simply open and run the `NaiveSAM.ipynb` notebook in your local Jupyter Notebook
     5. Sort out and pack to YOLO-seg dataset
     Note: If you have multiple videos, please repeat the tagging process for all videos before compiling the complete YOLO dataset.
     ```
+- **imp — Access the import internals**
+  - Please use Python 3.11 [imp](https://docs.python.org/3.13/library/imp.html)
+  - Or comment `autoload`
     
 - **SAM2 + Hydra Path Issue**
 ```python
