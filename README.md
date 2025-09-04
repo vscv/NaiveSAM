@@ -86,5 +86,5 @@ MissingConfigException: Cannot find primary config './sam2/configs/sam2.1/sam2.1
 ---
 
 ## TODO
-- A comparison table of the Auto-Annotation tool that supported SAM2.1.
+- A comparison table of the Auto-Annotation tools that supported SAM2.1.
 
