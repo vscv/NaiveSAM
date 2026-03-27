@@ -2,7 +2,7 @@
 *A Jupyter-based Interactive Workflow for YOLO Segmentation Dataset with Segment Anything Model (SAM)*
 
 
-[繁體中文](README-zh-TW.md) [简体中文](README-zh.md) [English](README.md)
+[繁體中文(update)](README-zh-TW.md) [简体中文](README-zh.md) [English](README.md)
 
 ---
 
