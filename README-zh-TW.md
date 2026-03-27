@@ -27,7 +27,11 @@
   - 參考：[https://github.com/facebookresearch/sam2](https://github.com/facebookresearch/sam2)
 
 > **注意**：請先安裝 CUDA 驅動、Torch、FFmpeg 與 SAM2。
+> **注意**：請認明SAM不同版本的主要功能：SAM靜態影像，SAM2影片(連續影格)，SAM3可對話分割與one shot learning。
+> **注意**：當時(2025~)能夠使用SAM2的標註工具都需要付費訂閱，鑑於「勤儉為持家之本」的精神，才『潤』出了這個標註工具。
 
+---
+> **改版**：預計2026改寫成marimo notebook，增加(1)手動畫框標註(2)全自動整圖分割與人工類別修正(3)SAM3以少量樣本的finetune。
 ---
 
 ## 展示影片與操作截圖
